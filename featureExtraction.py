@@ -1,9 +1,12 @@
+#!/usr/bin/env python
 # imports
+
 import numpy as np                     # numeric python lib
 #
 import matplotlib.image as mpimg       # reading images to numpy arrays
 import matplotlib.pyplot as plt        # to plot any graph
 import matplotlib.patches as mpatches  # to draw a circle at the mean contour
+
 
 from skimage import measure            # to find shape contour
 import scipy.ndimage as ndi            # to determine shape centrality
